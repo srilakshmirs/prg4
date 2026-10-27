@@ -4,6 +4,6 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Hello from Git Docker Integration!"
+    return "Hello from Git Docker Integration updated!"
 
 app.run(host="0.0.0.0", port=3000)
